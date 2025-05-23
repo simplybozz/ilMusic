@@ -1,0 +1,124 @@
+.contenedorGeneros {
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentGeneros {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.generosTitulo {
+    font-size: 42px;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+}
+
+.epocasContenido {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.epoca {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 170, 23, 0.05);
+}
+
+.epocaTitulo {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.generosColumna {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    width: 100%;
+}
+
+.generoTarjeta {
+    display: flex;
+    background-color: rgb(2, 14, 0);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+}
+
+.generoTarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 170, 23, 0.4);
+}
+
+.generoIcono {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.iconoCirculo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: rgba(0, 170, 23, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #00aa17;
+    transition: transform 0.3s ease;
+}
+
+.generoTarjeta:hover .iconoCirculo {
+    transform: scale(1.1);
+}
+
+.iconoTexto {
+    font-size: 30px;
+}
+
+.generoInfo {
+    flex: 1;
+}
+
+.generoNombre {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.generoDatos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dato {
+    display: flex;
+    flex-direction: column;
+}
+
+.datoTitulo{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.datoDesc {
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+}

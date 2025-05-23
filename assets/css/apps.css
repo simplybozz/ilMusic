@@ -1,0 +1,116 @@
+.contenedorApps {
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentApps {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloSeccion {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.descripcionSeccion {
+    font-size: 18px;
+    margin-bottom: 40px;
+    max-width: 800px;
+    color: white;
+    text-align: center;
+}
+
+.appsColumna {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    width: 100%;
+}
+
+.appTarjeta {
+    background-color: rgb(2 14 0);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.appTarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 170, 23, 0.4);
+}
+
+.appCabeza {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+
+.appLogo {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.appTitulo {
+    color: white;
+    font-size: 22px;
+    flex-grow: 1;
+}
+
+.btnDetalles {
+    background-color: #00aa17;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnDetalles:hover {
+    background-color: rgb(47, 255, 0);
+}
+
+.appDetalles {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+}
+
+.appDetalles.active {
+    max-height: 1000px;
+}
+
+.appInfo {
+    padding: 0 20px 20px 20px;
+    color: white;
+}
+
+.infoItem {
+    margin-bottom: 15px;
+}
+
+.infoItem h4 {
+    color: #00aa17;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.infoItem p {
+    font-size: 14px;
+    line-height: 1.5;
+}

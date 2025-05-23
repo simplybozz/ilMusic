@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../assets/img/logo-music.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../assets/css/inicio.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/instrumentos.css">
+    <link rel="stylesheet" href="../assets/css/menu.css">
+
+    <title>ilMusic | Instrumentos</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="menuPags">
+                <img src="../assets/img/logo-music.png" alt="Logo ilMusic">
+                <h1>ilMusic</h1>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="artistas.html">Artistas</a></li>
+                <li><a href="productores.html">Productores</a></li>
+                <li><a href="instrumentos.html">Instrumentos</a></li>
+                <li><a href="generos.html">Géneros</a></li>
+                <li><a href="apps.html">Apps</a></li>
+                <li><a href="unete.html">Únete</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenedorMain">
+        <div class="bannerInicio">
+            <div class="contenidoBanner">
+                <h1 class="tituloBanner">
+                    Tipos de<br><span class="MUSIC">INSTRUMENTOS</span>
+                </h1>
+                <p class="bannerDesc">
+                    En esta sección se encuentran la mayoría de instrumentos <span class="letraVerde">MUSICALES</span> que existen en el mundo. Más abajo encontrarás algunos carruseles con las fotos de los instrumentos que correspondan al tipo que se muestra arriba de cada carrusel.
+                </p>
+            </div>
+        </div>
+
+        <!-- Sección de Instrumentos de Cuerda -->
+        <section class="contenedorSlider">
+            <div class="contenidoSlider">
+                <h2 class="tituloInstrumentos">Instrumentos de <span class="letraVerde">Cuerda</span></h2>
+                <p class="instrumentosDesc">Los instrumentos de cuerda producen sonido mediante la vibración de cuerdas tensadas.</p>
+                
+                <div class="sliderContenedor">
+                    <div class="slider" id="slider-cuerdas">
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/guitarra.jpg" alt="Guitarra">
+                            <h3>Guitarra</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/violin.jpg" alt="Violín">
+                            <h3>Violín</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/violonchelo.jpg" alt="Violonchelo">
+                            <h3>Violonchelo</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/arpa.jpg" alt="Arpa">
+                            <h3>Arpa</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/bajo.jpg" alt="Bajo">
+                            <h3>Bajo</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/ukelele.jpg" alt="Ukelele">
+                            <h3>Ukelele</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/contrabajo.jpg" alt="Contrabajo">
+                            <h3>Contrabajo</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/mandolina.jpg" alt="Mandolina">
+                            <h3>Mandolina</h3>
+                        </div>
+                    </div>
+                    <div class="sliderFlechitas">
+                        <button class="anteriorbtn" onclick="moverSlider('slider-cuerdas', -1)">❮</button>
+                        <button class="siguientebtn" onclick="moverSlider('slider-cuerdas', 1)">❯</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="lineaVerdeSeparadora">
+
+        <!-- Sección de Instrumentos de Viento -->
+        <section class="contenedorSlider">
+            <div class="contenidoSlider">
+                <h2 class="tituloInstrumentos">Instrumentos de <span class="letraVerde">Viento</span></h2>
+                <p class="instrumentosDesc">Los instrumentos de viento producen sonido mediante la vibración del aire en su interior.</p>
+                
+                <div class="sliderContenedor">
+                    <div class="slider" id="slider-viento">
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/flauta.jpg" alt="Flauta">
+                            <h3>Flauta</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/saxofon.avif" alt="Saxofón">
+                            <h3>Saxofón</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/clarinete.jpg" alt="Clarinete">
+                            <h3>Clarinete</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/trompeta.jpg" alt="Trompeta">
+                            <h3>Trompeta</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/trombon.jpg" alt="Trombón">
+                            <h3>Trombón</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/oboe.jpg" alt="Oboe">
+                            <h3>Oboe</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/tuba.jpg" alt="Tuba">
+                            <h3>Tuba</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/fagot.jpg" alt="Fagot">
+                            <h3>Fagot</h3>
+                        </div>
+                    </div>
+                    <div class="sliderFlechitas">
+                        <button class="anteriorbtn" onclick="moverSlider('slider-viento', -1)">❮</button>
+                        <button class="siguientebtn" onclick="moverSlider('slider-viento', 1)">❯</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="lineaVerdeSeparadora">
+
+        <!-- Sección de Instrumentos de Percusión -->
+        <section class="contenedorSlider">
+            <div class="contenidoSlider">
+                <h2 class="tituloInstrumentos">Instrumentos de <span class="letraVerde">Percusión</span></h2>
+                <p class="instrumentosDesc">Los instrumentos de percusión producen sonido al ser golpeados, agitados o raspados.</p>
+                
+                <div class="sliderContenedor">
+                    <div class="slider" id="slider-percusion">
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/bateria.jpg" alt="Batería">
+                            <h3>Batería</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/tambor.jpg" alt="Tambor">
+                            <h3>Tambor</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/maracas.webp" alt="Maracas">
+                            <h3>Maracas</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/xilofono.avif" alt="Xilófono">
+                            <h3>Xilófono</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/triangulo.webp" alt="Triángulo">
+                            <h3>Triángulo</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/platillos.jpg" alt="Platillos">
+                            <h3>Platillos</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/congas.jpg" alt="Congas">
+                            <h3>Congas</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/bongos.jpg" alt="Bongos">
+                            <h3>Bongos</h3>
+                        </div>
+                    </div>
+                    <div class="sliderFlechitas">
+                        <button class="anteriorbtn" onclick="moverSlider('slider-percusion', -1)">❮</button>
+                        <button class="siguientebtn" onclick="moverSlider('slider-percusion', 1)">❯</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="lineaVerdeSeparadora">
+
+        <!-- Sección de Instrumentos Electrónicos -->
+        <section class="contenedorSlider">
+            <div class="contenidoSlider">
+                <h2 class="tituloInstrumentos">Instrumentos <span class="letraVerde">Electrónicos</span></h2>
+                <p class="instrumentosDesc">Los instrumentos electrónicos generan sonido mediante circuitos electrónicos o digitales.</p>
+                
+                <div class="sliderContenedor">
+                    <div class="slider" id="slider-electronicos">
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/sintetizador.jpg" alt="Sintetizador">
+                            <h3>Sintetizador</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/tecladoelectronico.jpg" alt="Teclado Electrónico">
+                            <h3>Teclado Electrónico</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/cajaderitmos.jpg" alt="Caja de Ritmos">
+                            <h3>Caja de Ritmos</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/theremin.jpg" alt="Theremin">
+                            <h3>Theremin</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/sampler.jpg" alt="Sampler">
+                            <h3>Sampler</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/controladormidi.jpg" alt="Controlador MIDI">
+                            <h3>Controlador MIDI</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/launchpad.jpg" alt="Launchpad">
+                            <h3>Launchpad</h3>
+                        </div>
+                        <div class="slide">
+                            <img src="../assets/img/instrumentos/vocoder.jpg" alt="Vocoder">
+                            <h3>Vocoder</h3>
+                        </div>
+                    </div>
+                    <div class="sliderFlechitas">
+                        <button class="anteriorbtn" onclick="moverSlider('slider-electronicos', -1)">❮</button>
+                        <button class="siguientebtn" onclick="moverSlider('slider-electronicos', 1)">❯</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <img src="../assets/img/logo-music.png" alt="Logo ilMusic" class="footerIcon">
+        <h2 class="footerTitulo">ilMusic</h2>
+    </footer>
+    <div class="cintilloFinal">
+        <p class="footerDesc">
+            © 2025 ilMusic. Todos los derechos reservados. Este sitio web fue diseñado y maquetado por Angel De la Cruz.
+        </p>
+    </div>
+
+    <script src="../app.js"></script>
+</body>
+</html>

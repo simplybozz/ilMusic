@@ -1,0 +1,101 @@
+.contenedorProductores{
+    width: 100%;
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentProductores {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productoresTitulo {
+    font-size: 42px;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+}
+
+.productoresColunma {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    width: 100%;
+}
+
+.productorTarjeta {
+    background-color: rgb(2, 14, 0);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.productorTarjeta:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 170, 23, 0.4);
+}
+
+.productorCabeza {
+    background-color: #00aa17;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.productorNombre {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.productorInformacion {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.productorSeccion {
+    margin-bottom: 15px;
+}
+
+.productorSeccion h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.productorSeccion p {
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+    padding-left: 15px;
+}
+
+.listaAlbums {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 5px 0;
+    position: relative;
+    padding-left: 20px;
+}

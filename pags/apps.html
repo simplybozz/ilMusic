@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../assets/img/logo-music.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../assets/css/inicio.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/apps.css">
+    <link rel="stylesheet" href="../assets/css/menu.css">
+
+    <title>ilMusic | Apps</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul class="menuPags">
+                <img src="../assets/img/logo-music.png" alt="Logo ilMusic">
+                <h1>ilMusic</h1>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="artistas.html">Artistas</a></li>
+                <li><a href="productores.html">Productores</a></li>
+                <li><a href="instrumentos.html">Instrumentos</a></li>
+                <li><a href="generos.html">Géneros</a></li>
+                <li><a href="apps.html">Apps</a></li>
+                <li><a href="unete.html">Únete</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenedorMain">
+        <div class="bannerInicio">
+            <div class="contenidoBanner">
+                <h1 class="tituloBanner">
+                    Aplicaciones para<br><span class="MUSIC">ESCUCHAR MÚSICA</span>
+                </h1>
+                <p class="bannerDesc">
+                    En esta sección podrás descubrir las mejores plataformas para disfrutar de tu <span class="letraVerde">MÚSICA</span> favorita en cualquier momento y lugar. Haz clic en "Ver detalles" para conocer más sobre cada aplicación.
+                </p>
+            </div>
+        </div>
+
+        <!-- Sección de Aplicaciones Musicales -->
+        <div class="contenedorApps">
+            <div class="contentApps">
+                <h2 class="tituloSeccion">Aplicaciones de <span class="letraVerde">STREAMING</span></h2>
+                <p class="descripcionSeccion">Explora las mejores aplicaciones para escuchar música en streaming. Cada una ofrece características únicas para diferentes tipos de usuarios.</p>
+                
+                <div class="appsColumna">
+                    <!-- Spotify -->
+                    <div class="appTarjeta">
+                        <div class="appCabeza">
+                            <img src="../assets/img/Apps/spotify.png" alt="Logo Spotify" class="appLogo">
+                            <h3 class="appTitulo">Spotify</h3>
+                            <button class="btnDetalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+                        </div>
+                        <div class="appDetalles">
+                            <div class="appInfo">
+                                <div class="infoItem">
+                                    <h4>Plataformas:</h4>
+                                    <p>Android, iOS, Web, PC, Smart TV, Consolas</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Planes:</h4>
+                                    <p>Plan gratuito con anuncios<br>Premium sin anuncios, con descargas</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Características:</h4>
+                                    <p>Catálogo enorme de música, playlists personalizadas, podcasts, modo conducción, letras sincronizadas, descubrimiento semanal, historial de escucha, compartir en redes sociales.</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Calidad de audio:</h4>
+                                    <p>Hasta 320 kbps en Premium</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Apple Music -->
+                    <div class="appTarjeta">
+                        <div class="appCabeza">
+                            <img src="../assets/img/Apps/applemusic.png" alt="Logo Apple Music" class="appLogo">
+                            <h3 class="appTitulo">Apple Music</h3>
+                            <button class="btnDetalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+                        </div>
+                        <div class="appDetalles">
+                            <div class="appInfo">
+                                <div class="infoItem">
+                                    <h4>Plataformas:</h4>
+                                    <p>iOS, Android, Web, Mac, Windows, Smart TV</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Planes:</h4>
+                                    <p>Solo versión de pago (1 mes gratis de prueba)</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Características:</h4>
+                                    <p>Alta calidad de sonido, integración con Siri, radio en vivo, letras sincronizadas, biblioteca personal en la nube, exclusivas de artistas, integración perfecta con dispositivos Apple.</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Calidad de audio:</h4>
+                                    <p>Hasta audio sin pérdida (Lossless) y Audio Espacial</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- YouTube Music -->
+                    <div class="appTarjeta">
+                        <div class="appCabeza">
+                            <img src="../assets/img/Apps/youtubemusic.png" alt="Logo YouTube Music" class="appLogo">
+                            <h3 class="appTitulo">YouTube Music</h3>
+                            <button class="btnDetalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+                        </div>
+                        <div class="appDetalles">
+                            <div class="appInfo">
+                                <div class="infoItem">
+                                    <h4>Plataformas:</h4>
+                                    <p>Android, iOS, Web, Smart TV</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Planes:</h4>
+                                    <p>Gratuito con anuncios<br>Premium con reproducción en segundo plano y sin anuncios</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Características:</h4>
+                                    <p>Videoclips además de solo audio, versiones en vivo, remixes y covers no disponibles en otras plataformas, integración con YouTube, modo sin conexión en Premium.</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Calidad de audio:</h4>
+                                    <p>Hasta 256 kbps en Premium</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Amazon Music -->
+                    <div class="appTarjeta">
+                        <div class="appCabeza">
+                            <img src="../assets/img/Apps/amazonmusic.png" alt="Logo Amazon Music" class="appLogo">
+                            <h3 class="appTitulo">Amazon Music</h3>
+                            <button class="btnDetalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+                        </div>
+                        <div class="appDetalles">
+                            <div class="appInfo">
+                                <div class="infoItem">
+                                    <h4>Plataformas:</h4>
+                                    <p>Android, iOS, Alexa, Web, Fire TV, Echo</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Planes:</h4>
+                                    <p>Gratis con Amazon Prime (versión limitada)<br>Amazon Music Unlimited con más contenido</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Características:</h4>
+                                    <p>Ideal si ya usas Amazon Prime, integración perfecta con dispositivos Echo y Alexa, modo sin conexión, letras en tiempo real, estaciones de radio personalizadas.</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Calidad de audio:</h4>
+                                    <p>Hasta HD y Ultra HD en Amazon Music Unlimited</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Deezer -->
+                    <div class="appTarjeta">
+                        <div class="appCabeza">
+                            <img src="../assets/img/Apps/deezer.webp" alt="Logo Deezer" class="appLogo">
+                            <h3 class="appTitulo">Deezer</h3>
+                            <button class="btnDetalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+                        </div>
+                        <div class="appDetalles">
+                            <div class="appInfo">
+                                <div class="infoItem">
+                                    <h4>Plataformas:</h4>
+                                    <p>Android, iOS, Web, Windows, Smart TV</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Planes:</h4>
+                                    <p>Versión gratuita con anuncios<br>Premium sin anuncios y con descargas</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Características:</h4>
+                                    <p>Buen motor de recomendaciones, Flow (lista personalizada), SongCatcher (identificación de canciones), letras sincronizadas, podcasts, modo oscuro.</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Calidad de audio:</h4>
+                                    <p>Hasta HiFi en planes premium</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tidal -->
+                    <div class="appTarjeta">
+                        <div class="appCabeza">
+                            <img src="../assets/img/Apps/tidal.png" alt="Logo Tidal" class="appLogo">
+                            <h3 class="appTitulo">Tidal</h3>
+                            <button class="btnDetalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+                        </div>
+                        <div class="appDetalles">
+                            <div class="appInfo">
+                                <div class="infoItem">
+                                    <h4>Plataformas:</h4>
+                                    <p>Android, iOS, Web, Windows, macOS</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Planes:</h4>
+                                    <p>Solo versión paga (Hi-Fi y Hi-Res audio)</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Características:</h4>
+                                    <p>Ideal para audiófilos, calidad de sonido superior, contenido exclusivo, videos musicales en HD, créditos detallados de canciones, pago directo a artistas.</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Calidad de audio:</h4>
+                                    <p>Hasta Master Quality Authenticated (MQA) y Dolby Atmos</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SoundCloud -->
+                    <div class="appTarjeta">
+                        <div class="appCabeza">
+                            <img src="../assets/img/Apps/soundcloud.png" alt="Logo SoundCloud" class="appLogo">
+                            <h3 class="appTitulo">SoundCloud</h3>
+                            <button class="btnDetalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+                        </div>
+                        <div class="appDetalles">
+                            <div class="appInfo">
+                                <div class="infoItem">
+                                    <h4>Plataformas:</h4>
+                                    <p>Android, iOS, Web</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Planes:</h4>
+                                    <p>Gratis con anuncios<br>Go+ para streaming sin conexión ni anuncios</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Características:</h4>
+                                    <p>Música independiente, remixes y tracks únicos, comentarios en momentos específicos de las canciones, comunidad de creadores, subir tu propia música.</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Calidad de audio:</h4>
+                                    <p>Hasta 256 kbps en Go+</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Audiomack -->
+                    <div class="appTarjeta">
+                        <div class="appCabeza">
+                            <img src="../assets/img/Apps/audiomack.png" alt="Logo Audiomack" class="appLogo">
+                            <h3 class="appTitulo">Audiomack</h3>
+                            <button class="btnDetalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+                        </div>
+                        <div class="appDetalles">
+                            <div class="appInfo">
+                                <div class="infoItem">
+                                    <h4>Plataformas:</h4>
+                                    <p>Android, iOS, Web</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Planes:</h4>
+                                    <p>Gratis y sin límites para descargar música<br>Premium sin anuncios</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Características:</h4>
+                                    <p>Muy popular para géneros como hip hop, afrobeat, reggaetón, artistas emergentes, lanzamientos exclusivos, mixtapes, descarga ilimitada.</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Calidad de audio:</h4>
+                                    <p>Hasta 192 kbps</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pandora -->
+                    <div class="appTarjeta">
+                        <div class="appCabeza">
+                            <img src="../assets/img/Apps/pandora.webp" alt="Logo Pandora" class="appLogo">
+                            <h3 class="appTitulo">Pandora (solo en EE. UU.)</h3>
+                            <button class="btnDetalles" onclick="mostrarDetalles(this)">Ver detalles</button>
+                        </div>
+                        <div class="appDetalles">
+                            <div class="appInfo">
+                                <div class="infoItem">
+                                    <h4>Plataformas:</h4>
+                                    <p>Android, iOS, Web, Smart TV, Consolas</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Planes:</h4>
+                                    <p>Gratis con anuncios<br>Versión Premium y Plus disponibles</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Características:</h4>
+                                    <p>Estilo radio personalizado, Music Genome Project para recomendaciones precisas, modo sin conexión en Premium, podcasts, estaciones personalizadas.</p>
+                                </div>
+                                <div class="infoItem">
+                                    <h4>Calidad de audio:</h4>
+                                    <p>Hasta 192 kbps en Premium</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <img src="../assets/img/logo-music.png" alt="Logo ilMusic" class="footerIcon">
+        <h2 class="footerTitulo">ilMusic</h2>
+    </footer>
+    <div class="cintilloFinal">
+        <p class="footerDesc">
+            © 2025 ilMusic. Todos los derechos reservados. Este sitio web fue diseñado y maquetado por Angel De la Cruz.
+        </p>
+    </div>
+
+    <script src="../app.js"></script>
+</body>
+</html>

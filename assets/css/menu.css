@@ -1,0 +1,53 @@
+header {
+    background-color: #00aa17;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.menu{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.menuPags h1{
+    margin: 0px 30px 0px 5px;
+    color: #231f20;
+    cursor: pointer;
+}
+
+.menuPags img{
+    margin-left: 30px;
+    width: 50px;
+    cursor: pointer;
+    animation: girar 4s linear infinite;
+}
+
+.menuPags{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+}
+
+.menuPags li a{
+    margin: 0px 10px;
+    padding: 10px;
+    background-color: #231f20;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease 0.1s, color 0.3s ease 0.1s; 
+}
+
+.menuPags li a:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

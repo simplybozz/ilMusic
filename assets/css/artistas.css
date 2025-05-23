@@ -1,0 +1,82 @@
+.listaArtistas{
+    width: 80%;
+    padding: 60px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cartaArtista{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 680px;
+    border-radius: 15px;
+    background-color: rgb(2 14 0);
+    color: white;
+    margin: 60px 0px;
+}
+
+.contenidoCarta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.numeroRanking{
+    color: #00aa17;
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.datosArtista{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: end;
+    width: 300px;
+}
+
+.datosArtista img{
+    width: 190px;
+    height: 260px;
+    border-radius: 12px;
+    animation: resplandor 2s ease-in-out infinite;
+}
+
+.nombreArtista{
+    font-size: 23px;
+    margin: 10px 0px 15px 0px;
+}
+
+.personalesArtista h3{
+    font-size: 13px;
+    text-align: right;
+}
+
+.informacionArtista{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    height: 100%;
+    width: 500px;
+}
+
+.informacionArtista p{
+    margin-bottom: 30px;
+}
+
+.informacionArtista p{
+    font-size: 18px;
+}
+
+.tituloInformacion{
+    font-size: 30px;
+}

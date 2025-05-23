@@ -1,0 +1,269 @@
+.bannerInicio{
+    width: 100%;
+    padding: 150px 30px 60px 30px;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-image: url('../img/Index/fondo-negro-textura.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    mask-image: linear-gradient(to top, transparent 0%, black 20%);
+}
+
+.contenidoBanner{
+    width: 80%;
+    display: flex;  
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.tituloBanner{
+    font-size: 50px;
+    line-height: 1.0;
+}
+
+.MUSIC{
+    color: #00aa17;
+    font-size: 95px;
+    transition: color 0.3s ease 0.1s; 
+}
+
+.MUSIC:hover{
+    cursor: pointer;
+    color: rgb(47, 255, 0);
+}
+
+.letraVerde{
+    color: #00aa17;
+    transition: color 0.3s ease 0.1s; 
+}
+
+.letraVerde:hover{
+    color: #00aa17;
+    cursor: pointer;
+    color: rgb(47, 255, 0);
+}
+
+.bannerDesc{
+    font-size: 20px;
+}
+
+.linkVerde{
+    color: #00aa17;
+    text-decoration: none;
+    transition: color 0.3s ease 0.1s; 
+}
+
+.linkVerde:hover{
+    cursor: pointer;
+    color: rgb(47, 255, 0);
+}
+
+.seccionArtistas{
+    background-image: url('../img/Index/fondoSecArtistas.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    mask-image: linear-gradient(to bottom, transparent 0%,black 20%, black 80%, transparent 100%);
+}
+
+.contenidoArtistas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.454);
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.tituloArtistas{
+    font-size: 60px;
+    color: white;
+    line-height: 1.0;
+}
+
+.artistasDesc{
+    color: white;
+}
+
+.seccionProductores{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenidoProductores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.tituloProductores{
+    font-size: 50px;
+    color: white;
+    line-height: 1.0;
+}
+
+.productoresDesc{
+    color: white;
+    width: 80%;
+}
+
+.textoProductores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.imagenProductores img{
+    border-radius: 12px;
+    width: 450px;
+    animation: resplandor 2s ease-in-out infinite;
+}
+
+.seccionInstrumentos{
+    background-image: url('../img/Index/fondoInstrumentosInicio.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%);
+}
+
+.contenidoInstrumentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.454);
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.tituloInstrumentos{
+    font-size: 60px;
+    color: white;
+    line-height: 1.0;
+}
+
+.artistasInstrumentos{
+    color: white;
+}
+
+.seccionGeneros{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenidoGeneros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.tituloGeneros{
+    font-size: 50px;
+    color: white;
+    line-height: 1.0;
+}
+
+.generosDesc{
+    color: white;
+    width: 80%;
+}
+
+.textoGeneros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.imagenGeneros img{
+    border-radius: 12px;
+    width: 450px;
+    animation: resplandor 2s ease-in-out infinite;
+}
+
+.lineaVerdeSeparadora{
+    border: none;
+    width: 100%;
+    height: 25px;
+    background-color: #00aa17;
+    mask-image: linear-gradient(to bottom, transparent 0%,black 20%, black 80%, transparent 100%);
+}
+
+.seccionApps{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+
+.contenidoApps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.tituloApps{
+    font-size: 50px;
+    color: white;
+    line-height: 1.0;
+}
+
+.appsDesc{
+    color: white;
+    width: 80%;
+}
+
+.textoApps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.imagenApps img{
+    border-radius: 12px;
+    width: 450px;
+    animation: resplandor 2s ease-in-out infinite;
+}
